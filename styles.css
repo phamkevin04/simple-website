@@ -311,7 +311,7 @@
 
     .main__content {
         text-align: center;
-        margin-bottom: 64px;
+        margin-bottom: 10px;
     }
 
     .main__content h1 {
@@ -320,7 +320,7 @@
     }
 
     .main__content h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .main__content p {
@@ -331,17 +331,17 @@
 
 @media screen and (max-width: 480px) {
     .main__content h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         margin-top: 3rem;
     }
 
     .main__content h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .main__content p {
         font-size: 1.5rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .main__btn {
@@ -356,7 +356,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: auto; /* original value: 100vh */
 }
 
 .cta h1 {
@@ -372,7 +372,7 @@
     );
     background-size: 100%;
     margin-bottom: 5rem;
-    font-size: 2.5rem;
+    font-size: 48px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -385,7 +385,7 @@
     flex-wrap: wrap;
 }
 
-.cta__card {
+.cta__card { /* Work Experiences CTA Card | Default Image for all CTA */
     margin: 16px;
     height: 525px;
     width: 400px;
@@ -400,12 +400,20 @@
     color: #fff;
 }
 
-.cta__card:nth-child(2) {
+.cta__card:nth-child(2) { /* Skill Sets CTA Card */
     background-image: linear-gradient(
         to bottom,
         rgba(0,0,0,0) 0%,
         rgba(17,17,17,0.6) 100%),
-        url('/images/HeadshotKevin.jpg');
+        url('/images/gaming-keyboard.jpg');
+}
+
+.cta__card:nth-child(3) { /* My Projects CTA Card */
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17,17,17,0.6) 100%),
+        url('/images/macbook-laptop.jpg');
 }
 
 .cta h2 {
@@ -446,81 +454,23 @@
     }
 
     .cta h1 {
-        font-size: 32px;
-        margin-top: 12rem;
+        font-size: 48px;
+        margin-top: 12px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .cta {
-        height: 1400px;
+        height: 1700px; /* made specifically to handle 3 CTA buttons without overlap of the footer */
     }
 
     .cta h1 {
-        font-size: 1.2rem;
+        font-size: 48px;
     }
 
     .cta__card {
-        width: 300px;
-    }
-}
-
-/* About Me Section */
-.about {
-    background: #141414;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-}
-
-.about h1 {
-    color: #f77062;
-    font-size: 64px;
-    margin-bottom: 10px;
-}
-
-.about h2 {
-    color: #fff;
-    font-size: 32px;
-}
-
-.about p {
-    color: #fff;
-    font-size: 20px;
-    width: 1300px;
-    margin-top: 16px;
-
-}
-
-@media screen and (max-width: 960px) {
-    .about {
-        height: 1600px;
-    }
-
-    .about h1 {
-        font-size: 32px;
-        margin-top: 12rem;
-        text-align: center;
-    }
-
-    .about h2 {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .about p {
-        width: 350px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .about {
-        height: 1400px;
-    }
-
-    .about h1 {
-        font-size: 1.2rem;
+        width: 300px; /* original size: 300px */
+        height: 500px;
     }
 }
 
