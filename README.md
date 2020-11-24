@@ -15,3 +15,4 @@ Netlify for Free Hosting --> https://friendly-kilby-40bdeb.netlify.app/
 Some of the images were pulled from https://www.pexels.com/
 Help of the Netlify to host site https://www.netlify.com/ 
 Code being stored via https://www.github.com/ 
+Getting colors from https://uigradients.com/
