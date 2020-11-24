@@ -128,8 +128,8 @@
 
 .project__img--card {
     margin: 10px;
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -186,7 +186,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .main__img--card {
+    .project__img--card {
         width: 250px;
         height: 250px;
     }
@@ -201,11 +201,12 @@
     }
 
     .project__content h2 {
-        font-size: 48px;
+        font-size: 24px;
     }
 
     .project__content p {
         margin-top: 16px;
+        font-size: 18px;
     }
 
     /* .project__btn {
