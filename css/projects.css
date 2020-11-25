@@ -1,7 +1,7 @@
 /* Project Section */
 .project {
     background-color: #131313;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .project__container {
@@ -139,11 +139,11 @@
     background-color: #00b4db;
 }
 
-.fa-code, .fa-users { /* resize the code icon on the Kev Dev section */
+.fa-code, .fa-users { /* resize the code icon on the Kev Dev project */
     font-size: 64px;
 }
 
-/* Mobile Responsive of Project Section*/
+/* Mobile Responsive of Project Project*/
 @media screen and (max-width: 1100px) {
     .project__container {
         display: grid;
