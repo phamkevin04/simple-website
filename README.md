@@ -1,6 +1,6 @@
 # Creator Information
-Kevin Pham
-Development started in November 2020
+- Kevin Pham
+- Development started in November 2020
 
 # Purpose
 - Creation of a simple website to practice some skills and also put together some information about my web development experience!
