@@ -14,7 +14,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 50px 50px;
 }
 
 .project__content {
@@ -136,6 +136,9 @@
     justify-content: center;
     color: #fff;
     /* background-image: linear-gradient(to right, #ff512f 0%, #f09819 100%); */
+}
+
+.card__background {
     background-color: #00b4db;
 }
 
