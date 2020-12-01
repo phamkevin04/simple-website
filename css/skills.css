@@ -1,12 +1,12 @@
 .skills {
     background-color: #131313;
     color: #ffffff;
-    padding: 6rem calc((100vw - 1100px) /2);
+    padding: 5rem calc((100vw - 1100px) /2);
     text-align: center;
 }
 
 .skills h1 {
-    margin-bottom: 16px;
+    margin-bottom: 48px;
     font-size: clamp(32px, 5vw, 48px);
     padding: 0 16px;
 }
